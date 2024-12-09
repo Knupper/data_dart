@@ -1,5 +1,6 @@
 void main(List<String> arguments) {
   var outputInteger = 2; // nach einmaliger Zuweisung fixer typ
+  print('${outputInteger.runtimeType} - $outputInteger');
 
   dynamic outputDynamic = 'test';
   print('${outputDynamic.runtimeType} - $outputDynamic');
@@ -30,16 +31,14 @@ void main(List<String> arguments) {
   print(lateString);
 
   final tmpString = 'test'; // immutable variable
+  print(tmpString);
 
-  late final tmpLateFinalString; // kombination late + final
-
+  late final String tmpLateFinalString; // kombination late + final
   tmpLateFinalString = 'other';
+  print(tmpLateFinalString);
 
-  String? nullableString = null;
-
+  String? nullableString;
   print('length: ${nullableString?.length ?? 0}');
-
-  final String userInput = null ?? '';
 
   if (nullableString != null) {
     print('length: ${nullableString.length}');
