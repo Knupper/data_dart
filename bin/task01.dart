@@ -1,3 +1,5 @@
+import 'dart:io';
+
 // Aufgabe:
 // pseudo Random Zahl generieren
 // Nutzer versucht Zahl zu erraten
@@ -5,4 +7,12 @@
 // Anzahl der Versuche speichern
 // Wenn korrekte Zahl eingegeben, Erfolgsmeldung mit Anzahl der Versuche, Programm beendet sich
 
-void main(List<String> args) {}
+void main(List<String> args) {
+  // to read current line from user: stdin.readLineSync();
+
+  while (true) {}
+
+  do {} while (true);
+
+  for (var i = 0; i < count; i++) {}
+}
