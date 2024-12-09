@@ -9,10 +9,4 @@ import 'dart:io';
 
 void main(List<String> args) {
   // to read current line from user: stdin.readLineSync();
-
-  while (true) {}
-
-  do {} while (true);
-
-  for (var i = 0; i < count; i++) {}
 }
